@@ -18,7 +18,7 @@ Protecting Delivery Partners From Income Loss Using Weekly Pricing, AI-Based Ris
 
 ## 🎥 Demo Video
 
-**[Demo Video Link Coming Soon]**
+**[https://drive.google.com/file/d/1XfjCdgx6HEARWX_bNppjS4NYW2GiQC9Z/view?usp=drivesdk]**
 
 ---
 
