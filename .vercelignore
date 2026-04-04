@@ -1,0 +1,6 @@
+backend/
+ml/
+.venv/
+*.py
+requirements.txt
+__pycache__/
