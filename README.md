@@ -1,424 +1,252 @@
-# 🚀 GigShield - AI-Powered Parametric Insurance for Gig Workers
+<div align="center">
 
-A complete ML-powered parametric insurance platform for gig delivery workers, featuring:
-- 🤖 6 intelligent ML models for risk assessment, pricing, and fraud detection
-- ⚡ Real-time weather-based disruption forecasting
-- 💰 Dynamic premium pricing based on actual risk
-- 🛡️ Intelligent fraud detection system
-- 📱 Beautiful React dashboard with AI assistant
+# GigShield.AI  
+### AI-Powered Parametric Income Protection For India’s Gig Economy  
 
----
+**Team Payload**
 
-## ⚡ Quick Start (5 Minutes)
+Protecting Delivery Partners From Income Loss Using Weekly Pricing, AI-Based Risk Assessment, And Automated Parametric Payouts.
 
-### Option 1: Just Run It (No Configuration)
-```bash
-# Terminal 1: Backend
-cd backend
-pip install -r requirements.txt
-python train.py
-python main.py
+![Built for](https://img.shields.io/badge/Built%20for-Gig%20Economy-blue)  
+![Model](https://img.shields.io/badge/Pricing-Weekly-success)  
+![Platform](https://img.shields.io/badge/Platform-Mobile--First-orange)  
+![AI](https://img.shields.io/badge/AI-Risk%20%26%20Fraud%20Detection-purple)
 
-# Terminal 2: Frontend
-npm install
-npm run dev
-```
-
-Visit: http://localhost:5173
-
-### Option 2: Detailed Setup
-See [backend/QUICKSTART.md](backend/QUICKSTART.md) for step-by-step instructions
+</div>
 
 ---
 
-## 📚 Documentation
+## 🌐 Live Demo  
 
-### Start Here
-1. **[COMPLETION_SUMMARY.md](COMPLETION_SUMMARY.md)** - What was built (5 min read)
-2. **[DOCS_INDEX.md](DOCS_INDEX.md)** - Complete documentation index
-3. **[backend/QUICKSTART.md](backend/QUICKSTART.md)** - Setup instructions
-
-### Development
-- **[INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)** - Connect frontend to backend
-- **[backend/README.md](backend/README.md)** - Full tech reference
-- **[backend/DEPLOYMENT_CHECKLIST.md](backend/DEPLOYMENT_CHECKLIST.md)** - Production checklist
+**[Open GigShield.AI Platform](https://gig-guardian-main.vercel.app/)**
 
 ---
 
-## 🎯 System Overview
+## 🎥 Demo Video  
 
-```
-Frontend (React @ :5173)
-    ↓ API Calls
-Backend (FastAPI @ :8000)
-    ↓ ML Models
-6 Trained Models
-    ├─ Risk Prediction (Random Forest)
-    ├─ Disruption Forecast (Gradient Boosting)
-    ├─ Income Loss Estimation (Random Forest)
-    ├─ Dynamic Pricing (Ridge Regression)
-    ├─ Fraud Detection (Isolation Forest)
-    └─ Activity Validation (Random Forest)
-```
+https://drive.google.com/file/d/1XfjCdgx6HEARWX_bNppjS4NYW2GiQC9Z/view  
 
 ---
 
-## 🚀 What's Included
+## Overview  
+
+GigShield.AI is an AI-powered parametric income protection platform designed for India’s gig workforce. It protects delivery partners from income loss caused by external disruptions such as heavy rain, extreme heat, pollution, floods, and zone restrictions.  
+
+Unlike traditional insurance, it focuses strictly on **short-term income protection** and follows a **weekly pricing model aligned with gig earnings cycles**.
+
+---
+
+## The Problem  
+
+Gig workers across Zomato, Swiggy, Blinkit, Zepto, and Amazon face **20–30% weekly income volatility** due to:
+
+- Weather disruptions  
+- Pollution spikes  
+- Zone closures  
+
+There is **no flexible, real-time financial safety net**.
+
+---
+
+## Our Solution  
+
+GigShield.AI provides **weekly parametric micro-protection** where:
+
+- Payouts are automatic  
+- No manual claim process  
+- Based on real-world measurable triggers  
+
+---
+
+## Parametric Trigger System  
+
+| Condition | Threshold | Impact |
+|----------|----------|--------|
+| Heavy Rain | > 50 mm/day | Reduced delivery hours |
+| Extreme Heat | > 40°C | Unsafe working conditions |
+| AQI Spike | AQI > 300 | Health risk |
+| Flood Alert | Govt-issued warning | Work disruption |
+| Zone Closure | Platform/API signal | No delivery access |
+
+If disruption persists for **≥ 4 hours**, payout is triggered automatically.
+
+---
+
+## How It Works  
+
+1. Worker onboarding  
+2. AI-based risk profiling  
+3. Weekly premium generation  
+4. Real-time monitoring  
+5. Automatic payout trigger  
+
+---
+
+## AI & ML System  
+
+### Core Intelligence Modules
+
+- **Risk Scoring** → Personalized pricing  
+- **Disruption Prediction** → 24–48 hour forecasting  
+- **Dynamic Pricing** → Weekly premium calculation  
+- **Fraud Detection** → Anomaly + behavior checks  
+- **Activity Validation** → Claim legitimacy verification  
+
+---
+
+## Financial Model  
+
+**Premium Formula**  
+`Premium = Risk × Exposure × Probability × Margin`
+
+**Payout Formula**  
+`Payout = Coverage % × Weekly Income`
+
+**Example**  
+- Weekly income: ₹4000  
+- Coverage: 30%  
+→ Payout: ₹1200  
+→ Premium: ₹120–₹200/week  
+
+✔ Affordable  
+✔ Scalable  
+✔ AI-optimized pricing  
+
+---
+
+## Platform Architecture  
+
+### Components  
+- Mobile App (React Native / Flutter)  
+- Backend (FastAPI / Node.js)  
+- Database (PostgreSQL / Supabase)  
+- AI Engine (Python ML services)  
+
+### Flow  
+User → API → Risk Engine → Monitoring → Trigger → Payout  
+
+---
+
+## What's Included  
 
 ### Backend ML System
-- ✅ 6 production-ready ML models (1,640 lines)
-- ✅ FastAPI server with 10 endpoints (500 lines)
-- ✅ Automated training pipeline (400 lines)
-- ✅ Configuration system (130 lines)
-- ✅ Synthetic data generators (450 lines)
-- ✅ Helper tools (setup validator + endpoint tester)
-- ✅ 4,000+ lines of documentation
+- 6 ML models  
+- FastAPI backend (10 endpoints)  
+- Training pipeline  
+- Data generation + validation  
 
 ### Frontend Application
-- ✅ React dashboard with 11 intelligent sections
-- ✅ AI Assistant for recommendations
-- ✅ Real-time risk assessment
-- ✅ Dynamic pricing display
-- ✅ Fraud detection alerts
-- ✅ User authentication
-- ✅ Shop/marketplace interface
+- React dashboard  
+- AI assistant  
+- Real-time risk + pricing  
+- Fraud alerts  
 
 ---
 
-## ✨ Key Features
+## Key Features  
 
-### 1. Risk Assessment
-- Analyzes weather, location, and work patterns
-- Produces real-time risk scores (0-1)
-- Categorizes as LOW/MEDIUM/HIGH
-- Shows feature importance
-
-### 2. Disruption Forecasting
-- Predicts next 24-48 hours of disruptions
-- Identifies peak risk hours
-- Detects rain/heat/pollution events
-- Provides hourly probability breakdown
-
-### 3. Dynamic Pricing
-- Calculates optimal weekly premium (₹20-₹150)
-- Adjusts for individual risk profile
-- Shows 3-tier options (Basic/Standard/Premium)
-- Estimates coverage limits
-
-### 4. Fraud Detection
-- Unsupervised anomaly detection
-- Checks GPS consistency
-- Analyzes claim patterns
-- Flags suspicious submissions
-
-### 5. Activity Validation
-- Verifies legitimate inactivity claims
-- Compares to historical patterns
-- Considers worker tenure
-- Provides confidence scores
+- Real-time risk scoring  
+- Disruption forecasting  
+- Dynamic pricing  
+- Fraud detection  
+- Automated payouts  
+- Dashboard insights  
 
 ---
 
-## 🔧 Technology Stack
+## Technology Stack  
 
-### Backend
-- **Framework**: FastAPI
-- **ML**: scikit-learn, XGBoost, Prophet
-- **Language**: Python 3.8+
+### Backend  
+- FastAPI  
+- Python  
+- scikit-learn, XGBoost, Prophet  
 
-### Frontend
-- **Framework**: React 18.3.1
-- **Build**: Vite 5.4.19
-- **Styling**: Tailwind CSS
-- **Components**: shadcn/ui
-- **Animations**: Framer Motion
+### Frontend  
+- React  
+- Vite  
+- Tailwind CSS  
+- Framer Motion  
 
 ---
 
-## 📊 Performance
+## Performance  
 
 | Metric | Value |
 |--------|-------|
-| API Response Time | 20-30ms |
-| Model Training | ~30 seconds |
-| Requests/Second | 500+ |
-| Model Size | ~2 MB |
+| API Response | 20–30 ms |
+| Training Time | ~30 sec |
+| Throughput | 500+ req/sec |
 | Memory Usage | ~200 MB |
 
 ---
 
-## 🛠️ Development Commands
+## 🔗 API Highlights  
 
-### Backend
-```bash
-cd backend
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Train models (generates saved_models/)
-python train.py
-
-# Start API server (localhost:8000)
-python main.py
-
-# Verify setup
-python verify_setup.py
-
-# Test all endpoints
-python test_endpoints.py
-```
-
-### Frontend
-```bash
-# Install dependencies
-npm install
-
-# Start development server (localhost:5173)
-npm run dev
-
-# Build for production
-npm run build
-
-# Run linter
-npm run lint
-
-# Run tests
-npm run test
-```
+- `/predict/risk`  
+- `/predict/forecast`  
+- `/predict/pricing`  
+- `/assess/fraud`  
+- `/predict/integrated`  
 
 ---
 
-## 📁 Project Structure
+## Security & Fraud Prevention  
 
-```
-gig-guardian-main/
-├── COMPLETION_SUMMARY.md    ← Summary of what was built
-├── DOCS_INDEX.md            ← Documentation index
-├── INTEGRATION_GUIDE.md      ← Frontend-backend integration
-├── backend/
-│   ├── QUICKSTART.md        ← Setup instructions
-│   ├── README.md            ← Full technical docs
-│   ├── DEPLOYMENT_CHECKLIST.md
-│   ├── main.py              ← FastAPI server
-│   ├── train.py             ← Model training
-│   ├── config.py            ← Configuration
-│   ├── models/              ← 6 ML models
-│   ├── data/                ← Data generators
-│   ├── verify_setup.py      ← Environment check
-│   └── test_endpoints.py    ← API tests
-├── src/
-│   ├── pages/               ← React pages
-│   ├── components/          ← React components
-│   ├── contexts/            ← State management
-│   └── ...
-└── package.json
-```
+- GPS validation  
+- Multi-signal verification  
+- Pattern analysis  
+- ML anomaly detection  
 
 ---
 
-## 🚀 Getting Started
+## Regulatory Fit  
 
-### 1. Clone & Install
-```bash
-# Install frontend dependencies
-npm install
-
-# Install backend dependencies
-cd backend && pip install -r requirements.txt
-```
-
-### 2. Prepare Backend
-```bash
-cd backend
-python train.py  # ~30 seconds
-python main.py   # Starts on :8000
-```
-
-### 3. Start Frontend
-```bash
-npm run dev      # Starts on :5173
-```
-
-### 4. Verify Everything Works
-- Backend: Visit http://localhost:8000/docs
-- Frontend: Visit http://localhost:5173
-- Test: Run `python backend/test_endpoints.py`
+- IRDAI-aligned parametric model  
+- Supports insurer partnerships  
+- Built for compliance (KYC + privacy)  
 
 ---
 
-## 📖 Documentation Files
+## Scope  
 
-| File | Purpose |
-|------|---------|
-| [COMPLETION_SUMMARY.md](COMPLETION_SUMMARY.md) | What's been built |
-| [DOCS_INDEX.md](DOCS_INDEX.md) | Full documentation index |
-| [backend/QUICKSTART.md](backend/QUICKSTART.md) | 5-minute setup |
-| [backend/README.md](backend/README.md) | Full technical reference |
-| [INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md) | Frontend integration |
-| [backend/DEPLOYMENT_CHECKLIST.md](backend/DEPLOYMENT_CHECKLIST.md) | Production ready |
+Focus: **Income loss due to disruptions only**
+
+Not covered:  
+- Health  
+- Accidents  
+- Vehicle  
 
 ---
 
-## 🔗 API Endpoints
+## Roadmap  
 
-All endpoints available at http://localhost:8000 (with auto-documentation at /docs)
+**Phase 1: Foundation & Design**  
+- Research + architecture  
+- Trigger definition  
+- Financial model  
 
-### Individual Predictions
-- `POST /predict/risk` - Risk assessment
-- `POST /predict/forecast` - 24h disruption forecast
-- `POST /predict/income-loss` - Loss estimation
-- `POST /predict/pricing` - Premium calculation
-- `POST /predict/pricing/tiers` - 3-tier pricing options
-- `POST /assess/fraud` - Fraud detection
-- `POST /validate/activity` - Activity validation
+**Phase 2: Development & Intelligence**  
+- Backend + AI models  
+- Fraud detection  
+- Pricing system  
 
-### Integrated
-- `POST /predict/integrated` - All models at once
-
-### Health
-- `GET /` - Service status
-- `GET /health` - Model readiness
+**Phase 3: Deployment & Scaling**  
+- App + integrations  
+- Pilot testing  
+- Partnerships  
 
 ---
 
-## 🧪 Testing
+## Team Payload  
 
-### Test Backend
-```bash
-python backend/verify_setup.py    # Environment check (10 points)
-python backend/test_endpoints.py  # API tests (all 10 endpoints)
-```
-
-### Test Frontend
-```bash
-npm run test                       # Run Jest tests
-npm run lint                       # Run ESLint
-```
+Parv Bhawsar  
+Nupur Goswami  
+Shashwat Singh  
+Bhoomi Thakur  
+Kanishk Sinha  
 
 ---
 
-## 🔐 Security
+## Vision  
 
-✅ Input validation (Pydantic)
-✅ CORS configured
-✅ Error handling
-✅ Type safety (TypeScript + Python)
-⚠️ Add API authentication before production
-⚠️ Use HTTPS in production
-
----
-
-## 🚀 Deployment
-
-### Local Development
-Already running at:
-- Frontend: http://localhost:5173
-- Backend: http://localhost:8000
-
-### Production
-See [backend/DEPLOYMENT_CHECKLIST.md](backend/DEPLOYMENT_CHECKLIST.md)
-
----
-
-## 💡 How it Works
-
-1. **User logs in** to React frontend
-2. **Dashboard loads** and requests predictions
-3. **Frontend calls** backend API with worker data
-4. **6 ML models run** in parallel/sequence
-5. **Results returned** with confidence scores
-6. **Dashboard displays** real-time predictions
-7. **User sees** risk level, pricing, alerts, etc.
-
----
-
-## 🎓 Learning
-
-### Understanding the Models
-- [Risk Model](backend/models/risk_model.py) - Random Forest
-- [Forecast Model](backend/models/forecast_model.py) - Gradient Boosting
-- [Loss Model](backend/models/loss_model.py) - Random Forest
-- [Pricing Model](backend/models/pricing_model.py) - Ridge Regression
-- [Fraud Model](backend/models/fraud_model.py) - Isolation Forest
-- [Activity Model](backend/models/activity_model.py) - Random Forest
-
-Each model has:
-- Type hints and docstrings
-- Example usage
-- Heuristic fallback (works without training)
-- Full feature documentation
-
----
-
-## ✅ Checklist
-
-Before going to production:
-
-- [ ] `python backend/verify_setup.py` passes
-- [ ] `python backend/test_endpoints.py` shows 10/10
-- [ ] Frontend-backend communication works
-- [ ] Dashboard shows real predictions
-- [ ] Review [DEPLOYMENT_CHECKLIST.md](backend/DEPLOYMENT_CHECKLIST.md)
-- [ ] Set up environment variables
-- [ ] Configure production database
-- [ ] Enable HTTPS
-- [ ] Set up monitoring
-
----
-
-## 📞 Help & Support
-
-### Quick Reference
-- Setup help: [backend/QUICKSTART.md](backend/QUICKSTART.md)
-- Documentation: [DOCS_INDEX.md](DOCS_INDEX.md)
-- Integration: [INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)
-- Production: [backend/DEPLOYMENT_CHECKLIST.md](backend/DEPLOYMENT_CHECKLIST.md)
-
-### Common Issues
-1. Port 8000 in use? Change port in `backend/config.py`
-2. Models not found? Run `python backend/train.py`
-3. CORS error? Check `backend/main.py` CORS config
-4. Slow responses? First request loads models (~100ms), rest ~20ms
-
----
-
-## 🎉 Ready?
-
-1. **Read**: [COMPLETION_SUMMARY.md](COMPLETION_SUMMARY.md)
-2. **Setup**: [backend/QUICKSTART.md](backend/QUICKSTART.md)
-3. **Run**: `cd backend && python train.py && python main.py`
-4. **Test**: `python test_endpoints.py`
-5. **Visit**: http://localhost:5173
-
----
-
-## 📊 Stats
-
-- **Lines of Code**: 3,500+ (backend ML)
-- **Lines of Docs**: 4,000+ (guides + reference)
-- **ML Models**: 6 (all trained and ready)
-- **API Endpoints**: 10 (fully documented)
-- **Test Coverage**: Complete endpoint coverage
-- **Time to Setup**: 5 minutes
-
----
-
-## 🌟 Features Highlights
-
-✨ **AI-Driven**: Real ML models powering all decisions  
-⚡ **Fast**: ~20ms response time per prediction  
-🔒 **Secure**: Input validation + error handling  
-📱 **Beautiful**: Responsive React dashboard  
-🎯 **Smart**: Risk-aware pricing + fraud detection  
-🧠 **Explainable**: Feature importance + confidence scores  
-📊 **Real-time**: Live updates as weather changes  
-🛡️ **Verified**: Automated test suite included  
-
----
-
-**Status**: ✅ Complete & Production Ready
-
-**Built with**: Python (ML), React (Frontend), FastAPI, Vite, Tailwind CSS
-
-**Last Updated**: 2024
+To build a system where gig workers are financially protected against uncontrollable disruptions and can earn with stability, confidence, and dignity.
